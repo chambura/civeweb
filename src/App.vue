@@ -1,22 +1,31 @@
 <template>
-  <img alt="Vue logo" src="../public/logo.png">
-  <MainNav msg1="Department of Computer Science | "
-          msg2="College of Informatics and Virtual Education | "
-            msg3="University of DODOMA"/>
+  <div id="main">
+    <MainNav></MainNav>  
+  </div>
+  <div class="contents">
+    <HomePage></HomePage>
+  </div>
+  <div class="footer">
+    <FooterNav></FooterNav>
+  </div>
 </template>
 
 <script>
 import MainNav from "@/components/MainNav.vue";
+import HomePage from "./components/HomePage.vue";
+import FooterNav from "./components/FooterNav.vue";
 
 export default {
   name: 'App',
   components: {
-    MainNav
-  }
+    MainNav,
+    HomePage,
+    FooterNav
+}
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,10 +34,11 @@ export default {
   color: #2c3e50;
   margin-top: 0px;
 }
-img {
-  height: 100px;
-  width: 100px;
-  align-content: flex-start;
-  background-color: #2c3e50;
+.footer {
+    margin-bottom: 0px;
+    float: inherit;
+    flex: content;
+    display: block;
+
 }
 </style>

@@ -1,10 +1,9 @@
 <template>
   <div class="header">
-    {{msg1}}
-    {{msg2}}
-    {{msg3}}
-
-
+          <img alt="UDOM Logo" src="../../public/udomlogo-removebg-preview.png"/>
+          <h1>DEPARTMENT OF COMPUTER SCIENCE</h1>
+          <h2>College of Informatics and Virtual Education</h2>
+          <h3>University of DODOMA</h3>
   </div>
   <div class="navbar">
     <div>
@@ -19,10 +18,10 @@
       <div class="subnav">
       <button class="subnavbtn">Short Cousres <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        <a href="#bring">Bring</a>
-        <a href="#deliver">Deliver</a>
-        <a href="#package">Package</a>
-        <a href="#express">Express</a>
+        <a href="#bring">Course 1</a>
+        <a href="#deliver">ourse 2</a>
+        <a href="#package">ourse 3</a>
+        <a href="#express">ourse 4</a>
       </div>
     </div>
     </div>
@@ -33,13 +32,7 @@
 <script>
 export default {
   name: 'MainNav',
-  props: {
-    msg1: String,
-    msg2: String,
-    msg3: String
-
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -83,7 +76,7 @@ h3 {
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: blue;
+  background-color: rgb(0, 217, 255);
 }
 
 /* Style the subnav content - positioned absolute */
@@ -91,7 +84,7 @@ h3 {
   display: none;
   position: absolute;
   left: 0;
-  background-color: blue;
+  background-color: rgb(23, 23, 196);
   width: 100%;
   z-index: 1;
 }
@@ -113,9 +106,37 @@ h3 {
 .subnav:hover .subnav-content {
   display: block;
 }
-.header{
+.header {
   font-family: FreeSerif;
+  background-color: rgb(166, 202, 226);
+  margin-top: -40px;
+  padding-top: 0%;
+  text-align: center;
+}
+img {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
+  position: absolute;
+  align-content: flex-start;
+  float: left;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: blue;
+}
+h2 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: rgb(221, 10, 98);
+}
+h3 {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
-  background-color: aqua;
+  color: rgb(2, 17, 5);
+
 }
 </style>
