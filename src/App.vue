@@ -1,6 +1,9 @@
 <template>
   <div id="main">
-    <MainNav></MainNav>  
+    <MainNavigation></MainNavigation>  
+  </div>
+  <div class="pictureslides">
+    <PictureSlide></PictureSlide>
   </div>
   <div class="contents">
     <HomePage></HomePage>
@@ -11,16 +14,18 @@
 </template>
 
 <script>
-import MainNav from "@/components/MainNav.vue";
 import HomePage from "./components/HomePage.vue";
 import FooterNav from "./components/FooterNav.vue";
+import MainNavigation from "@/components/MainNavigation.vue";
+import PictureSlide from "./components/PictureSlide.vue";
 
 export default {
   name: 'App',
   components: {
-    MainNav,
     HomePage,
-    FooterNav
+    FooterNav,
+    MainNavigation,
+    PictureSlide
 }
 }
 </script>
@@ -35,10 +40,13 @@ export default {
   margin-top: 0px;
 }
 .footer {
-    margin-bottom: 0px;
-    float: inherit;
-    flex: content;
-    display: block;
-
+    bottom: 0%;
+    position: fixed;
+    left:0%;
+    width:100%;
+    text-align: center;
+    background-color: rgb(12, 230, 161);
+    /* flex: content;
+    display: block; */
 }
 </style>

@@ -12,9 +12,15 @@
     <div>
       <a href="#about">About Us</a>
     </div>
-    <div>
-      <a href="#contact">Programmes</a>
-    </div>
+    <div class="subnav">
+      <button class="subnavbtn">Programmes <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="https://udom.ac.tz" target="blank_">Programmes 1</a>
+        <a href="#deliver">Programmes 2</a>
+        <a href="#package">Programmes 3</a>
+        <a href="#express">Programmes 4</a>
+      </div>
+      </div>
       <div class="subnav">
       <button class="subnavbtn">Short Cousres <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
@@ -22,6 +28,7 @@
         <a href="#deliver">ourse 2</a>
         <a href="#package">ourse 3</a>
         <a href="#express">ourse 4</a>
+        
       </div>
     </div>
     </div>
