@@ -1,24 +1,18 @@
 <template>
-    <div class="contents">
-        <h1>Department of Computer Science</h1>
-    <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-    
-    </div>
-  
-  </template>
-  
-  <script>
-  export default {
-    name: "HomePage",
-    props: {},
+  <div class="contents">
+    <h1>Department of Computer Science</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "HomePage",
+  props: {},
+};
+</script>
+
+<style scoped>
+.contents {
+  text-align: center;
 }
-  </script>
-  
- 
-  <style scoped>
-  .contents {
-    text-align: center;
-  }
- 
-  </style>
-  
+</style>

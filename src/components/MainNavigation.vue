@@ -1,9 +1,9 @@
 <template>
   <div class="header">
           <img alt="UDOM Logo" src="../../public/udomlogo-removebg-preview.png"/>
-          <h1>DEPARTMENT OF COMPUTER SCIENCE</h1>
+          <h1>University of Dodoma</h1>
           <h2>College of Informatics and Virtual Education</h2>
-          <h3>University of DODOMA</h3>
+          <h3>Department Of Computer Science </h3>
   </div>
   <div class="navbar">
     <div>
@@ -22,12 +22,12 @@
       </div>
       </div>
       <div class="subnav">
-      <button class="subnavbtn">Short Cousres <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn">Short Courses <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
         <a href="#bring">Course 1</a>
-        <a href="#deliver">ourse 2</a>
-        <a href="#package">ourse 3</a>
-        <a href="#express">ourse 4</a>
+        <a href="#deliver">Course 2</a>
+        <a href="#package">Course 3</a>
+        <a href="#express">Course 4</a>
         
       </div>
     </div>
