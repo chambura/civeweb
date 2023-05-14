@@ -116,7 +116,7 @@ h3 {
 .header {
   font-family: FreeSerif;
   background-color: rgb(166, 202, 226);
-  margin-top: -40px;
+  margin-top: -50px;
   padding-top: 0%;
   text-align: center;
 }
